@@ -39,5 +39,5 @@ ex <- ex[!duplicated(ex), ]  # remove duplicates
 ump <- umap(t(ex), n_neighbors = 8, random_state = 123)
 plot(ump$layout, main="UMAP plot, nbrs=8", xlab="", ylab="", pch=20, cex=1.5)
 library("maptools")  # point labels without overlaps
-pointLabel(ump$layout, labels = rownames(ump$layout), method="SANN", cex=0.6)
+pointLabel ( ump $ 레이아웃 , 레이블  =  행 이름 ( ump $ 레이아웃 ), 메소드 = "SANN" , cex = 0.6 )
 
