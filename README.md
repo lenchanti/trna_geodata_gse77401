@@ -1,2 +1,2 @@
 # trna
-trna data (dbtrend &amp;geo data) analysis
+trna data (dbtrend & amp;geo data) analysis
